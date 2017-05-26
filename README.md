@@ -1,25 +1,13 @@
-# ReduxSimpleStarter
+# Book Trading Club
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+This is a book trading club created using react-redux and mongodb.
+This project was made for FCC baseJump. It meets the following criteria:
+1. I can view all books posted by every user.
 
-### Getting Started
+2. I can add a new book.
 
-There are two methods for getting started with this repo.
+3. I can update my settings to store my full name, city, and state.
 
-#### Familiar with Git?
-Checkout this repo, install dependencies, then start the gulp process with the following:
+3. I can propose a trade and wait for the other user to accept the trade.
 
-```
-> git clone https://github.com/StephenGrider/ReduxSimpleStarter.git
-> cd ReduxSimpleStarter
-> npm install
-> npm start
-```
-
-#### Not Familiar with Git?
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-> npm install
-> npm start
-```
+Link to live project found here: https://book-club-m-alchemist.herokuapp.com
