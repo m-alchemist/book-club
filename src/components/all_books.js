@@ -74,7 +74,7 @@ class AllBooks extends Component{
         <div className='text-xs-left'>
 
         </div>
-      <div className='text-xs-center'>  <h1>All books</h1></div>
+      <div className='text-xs-center main-page-text text-warning'>  <h1></h1></div>
       <div className='text-xs-center searchBookList'>
         {this.renderBooks()}
       </div>
@@ -84,7 +84,7 @@ class AllBooks extends Component{
 
 }
 function mapStateToProps(state){
-      
+
   return {
     authenticated:state.auth.authenticated,
     allBooks:state.auth.allBooks,

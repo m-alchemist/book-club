@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {connect} from 'react-redux';
-
+import {Link} from 'react-router';
 import * as actions from '../actions/auth_actions';
 
 class MyBooks extends Component{
@@ -51,8 +51,8 @@ class MyBooks extends Component{
       if(mybooksSection){
         return(
           <span className='table-buttons'>
-          <button onClick={this.handleRemoveBook.bind(this,book)} className='btn-danger btn'>
-          <i className="fa fa-times" aria-hidden="true"></i></button>
+          <button onClick={this.handleRemoveBook.bind(this,book)} className=' btn-danger btn'>
+        x</button>
         </span>)
       }
     }
@@ -117,6 +117,7 @@ class MyBooks extends Component{
       <div className='my-books-titles'><h3>My Books: </h3></div>
         <ul className='list-group'>
         {this.renderBooks(this.props.currentBooks,false,false,true)}
+        <p> Add A book <Link to='/search'> <button className='btn btn-primary'>+</button></Link></p>
         </ul>
         <div className='my-books-titles'><h3>recently Traded:</h3></div>
         <ul className='list-group'>
