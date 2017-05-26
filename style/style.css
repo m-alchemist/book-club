@@ -1,0 +1,325 @@
+.book-stack{
+  width:300px;
+  height:300px;
+}
+.main-page-title{
+  font-family: 'Barrio', cursive;
+  font-size: 90px;
+  color: orange;
+}
+
+.search-bar{
+  height:45px;
+
+}
+.search-bar:focus{
+  box-shadow: 2px 2px 2px grey;
+}
+.card{
+
+  width:300px;
+
+  height:350px;
+  margin:0px 0px 0px 2px;
+  text-align: center;
+  padding:20px;
+
+}
+.card:hover{
+  background-color: #eee;
+}
+.card-button-request-trade{
+  float:right;
+  background-color:orange;
+}
+
+.searchBookListItem{
+  display: inline-block;
+
+}
+.searchBookList{
+  margin-top: 40px;
+  display:flex;
+justify-content:space-around;
+flex-wrap: wrap;
+}
+p{
+  margin:0px;
+}
+
+.signinContainer{
+  font-color:  white;
+  background-color:#0088cc ;
+
+  width: 400px;
+  height: 540px;
+  margin: auto;
+  padding: 40px;
+  margin-top:70px;
+  margin-bottom:50px;
+  text-align: center;
+  border-radius: 20px;
+}
+.signupContainer{
+  font-color:  white;
+  background-color:#0088cc ;
+
+  width: 500px;
+  height: 850px;
+  margin: auto;
+  padding: 40px;
+  margin-top:70px;
+  margin-bottom:50px;
+  text-align: center;
+  border-radius: 20px;
+  border-radius: 20px;
+}
+.signoutContainer{
+  font-color:  white;
+  background-color:#0088cc ;
+
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  padding: 40px;
+  margin-top:70px;
+  margin-bottom:50px;
+  text-align: center;
+  border-radius: 20px;
+}
+.signin-title{
+  color:white;
+  font-family: 'Architects Daughter', cursive;
+}
+.field{
+  font-family: 'Architects Daughter', cursive;
+  font-size:18px;
+
+}
+.header-top {
+  padding: 2px ;
+  padding-left:20px;
+
+  width:100%;
+  position:fixed;
+  top:0px;
+  background: url( 'http://myfirstsevendays.com/wp-content/uploads/2013/07/header-background.jpg')  repeat center center fixed;
+  height: 60px;
+  margin-bottom:20px;
+  left: 0px;
+  top: 0px;
+  z-index: 11;
+  border-radius: 0px 0px 5px 5px;
+
+}
+
+.main-page-text{
+  font-family: 'Architects Daughter', cursive;
+  color:white;
+
+}
+.main-page-subtext{
+font-family: 'Boogaloo', cursive;
+color:black;
+}
+.header-title{
+  font-family: 'Architects Daughter', cursive;
+  color:white;
+  margin-top:10px;
+  margin-right: 10px;
+}
+.btn{
+  margin:2px;
+}
+
+.button {
+  border: none;
+  margin:10px;
+  border-radius: 2px;
+  color: white;
+  width: 100px ;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  -webkit-transition-duration: .4s; /* Safari */
+  transition-duration: .4s;
+  cursor: pointer;
+  font-family: 'Architects Daughter', cursive;
+}
+.buttonLong {
+  border: none;
+  border-radius: 2px;
+  color: white;
+  width: 200px ;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  -webkit-transition-duration: .4s; /* Safari */
+  transition-duration: .4s;
+  cursor: pointer;
+  font-family: 'Architects Daughter', cursive;
+}
+.button1 {
+  background-color: #1E90FF;
+  color: white;
+  border: 2px solid #4682B4;
+  border-radius: 10px;
+
+}
+.button1:hover {
+
+
+  background-color: white;
+  color: orange;
+  border-radius: 10px;
+
+}
+.button2 {
+    border: 2px solid #ff3232;
+    background-color: #ff3232;
+    color: white;
+    border-radius: 10px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: #ff3232;
+    border-radius: 10px;
+}
+.button3 {
+background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+
+}
+.button3:hover {
+
+
+     background-color: white;
+     color: #FFAF26;
+     border-radius: 10px;
+
+}
+.fa-cog{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.my-books-titles{
+
+  font-family: 'Poiret One', cursive;
+  text-align: left;
+  color: orange;
+  padding: 50px;
+}
+p{
+  font-family: 'Architects Daughter', cursive;
+  font-size:18px;
+  margin:0px;
+}
+.search-title-main{
+
+}
+.search-title:nth-child(odd){
+  font-family: 'Architects Daughter', cursive;
+  color:red;
+  display: inline-block;
+
+}
+
+.search-title:nth-child(even){
+  font-family: 'Architects Daughter', cursive;
+  color:black;
+  display: inline-block;
+
+}
+.message-alert{
+   background: rgba(76, 175, 80, 0.3);
+  border:3px solid green;
+}
+.table-image{
+  width:50px;
+  height:50px;
+  margin-right:  10px;
+  vertical-align: middle;
+
+
+}
+
+.table-title{
+
+  text-align: left;
+  margin-left: 70px;
+
+
+}
+.table-buttons{
+  float:right;
+
+}
+.table-button-accept{
+
+  background-color:#00C78C;
+}
+.table-button-decline{
+  margin:3px;
+
+  background-color:#B0171F;
+}
+
+.nav-item{
+
+    padding-top:10px;
+    height:58px;
+}
+li:hover{
+  background-color: #eee;
+}
+body{
+  background: url('https://ae01.alicdn.com/kf/HTB18yb5JVXXXXbjXXXXq6xXFXXXh/Photo-Backdrops-Children-Vinyl-Photo-Props-for-Studio-Photography-font-b-Background-b-font-font-b.jpg')no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+}
+.container{
+  /*background:rgba(255, 250, 250, 0.95);*/
+  min-height: 500px;
+  padding:40px;
+  margin-top: 50px;
+}
+
+.fa-home{
+  margin-top:15px;
+  color:white;
+}
+.glow2 a{
+
+  color:  #FFAF26;
+
+}
+
+.glow2 a :hover {
+  color:#0088cc;
+
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+
+  text-align: center;
+}
+.text-black{
+  color:black;
+}
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Metamorphous');
